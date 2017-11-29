@@ -19,3 +19,4 @@ echo -e "#!/bin/bash
 \n\necho \"name: $name\nlast name: $lname\nID: $ID\nDOB:$DOB\nCOB: $COB\"" > /home/lior/.user_info.sh
 
 #c. in .bashrc add one line "bash .user_info.sh"
+echo "bash /home/lior/.user_info.sh" >> /home/lior/.bashrc 

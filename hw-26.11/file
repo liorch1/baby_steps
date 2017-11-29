@@ -1,9 +1,0 @@
-<< lala
-cat /etc/group | grep wheel |grep $USER 
-
-if [ $? -le 0 ]then
-        echo "$USER is in wheel group!"
-else 
-        echo "$USER is not in wheel group! :( "
-fi  
-lala
