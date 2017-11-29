@@ -4,21 +4,12 @@
 #with alfabetical letter.
 #for example: file_a, file_b, file_c ....etc,etc.
 
-#sleep for 2.8 sec and make file_a
-sleep 2.8
+for letter in {a..z}; do #loop that cover all the abc..
+	sleep 2.8 ; #sleep for 2.8 sec
+	touch file_$letter && ls file_$letter; #make the file and list it
 
-#make file_a
-touch file_a
+done
 
-#sleep for 2.8 sec and make file_b
-sleep 2.8
+   
 
-#make file_b
-touch file_b
 
-#sleep for 2.8 and make file_c
-sleep 2.8
-
-#make file_c
-touch file_c
- 
